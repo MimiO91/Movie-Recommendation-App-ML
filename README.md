@@ -3,6 +3,8 @@
 ## 📜 Description
 Ce projet consiste à développer un système de recommandation de films pour un cinéma local, afin d'améliorer la fréquentation en ligne. Le système utilise des bases de données publiques telles qu'IMDb et TMDB, en raison d'une absence de données initiales sur les préférences des clients ("cold start"). Le but est d'analyser les tendances cinématographiques et de proposer des recommandations pertinentes en fonction des goûts des utilisateurs.
 
+🚀 **Live Demo:** [Cliquez ici](https://mimio91-streamlit-movie-recommendation.streamlit.app/) 
+
 ## 🗂️ Fichiers
 main.py : Script principal contenant l'implémentation du système de recommandation.
 data/ : Dossier contenant les jeux de données d'IMDb et TMDB utilisés pour l'analyse.
