@@ -1,29 +1,55 @@
-# Projet ML - Système de recommandation de films
+# 🎬 Movies App Project - Système de Recommandation de Films
 
-## 📜 Description
-Ce projet consiste à développer un système de recommandation de films pour un cinéma local, afin d'améliorer la fréquentation en ligne. Le système utilise des bases de données publiques telles qu'IMDb et TMDB, en raison d'une absence de données initiales sur les préférences des clients ("cold start"). Le but est d'analyser les tendances cinématographiques et de proposer des recommandations pertinentes en fonction des goûts des utilisateurs.
+## 📌 Présentation du Projet
+Ce projet vise à développer un **système de recommandation de films** pour un cinéma local, dans le but d'améliorer la fréquentation en ligne. Le système exploite des bases de données publiques telles qu'**IMDb** et **TMDB** pour fournir des suggestions personnalisées aux utilisateurs.
 
-🚀 **Live Demo:** [Cliquez ici](https://app-movie-recommendation-fcnq7fa4kixrswrsxcihpo.streamlit.app/)
+## 🚀 Fonctionnalités
+- **Recommandations Personnalisées** : Suggestions basées sur les préférences de l'utilisateur.
+- **Interface Interactive** : Utilisation de **Streamlit** pour une expérience utilisateur fluide.
+- **Accès aux Détails des Films** : Informations détaillées sur chaque film recommandé.
 
-## 🗂️ Fichiers
-main.py : Script principal contenant l'implémentation du système de recommandation.
-data/ : Dossier contenant les jeux de données d'IMDb et TMDB utilisés pour l'analyse.
-requirements.txt : Liste des dépendances nécessaires à l'exécution du projet.
-app.py : Script pour le déploiement du système via Streamlit, avec une interface utilisateur permettant d'obtenir des recommandations de films.
-notebooks/ : Dossier contenant les notebooks Jupyter pour l'exploration et l'analyse des données.
+## 🛠️ Technologies Utilisées
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="42" height="42" />
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="42" height="42" />
+  </a>
+  <a href="https://streamlit.io/" target="_blank">
+    <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="Streamlit" width="42" height="42" />
+  </a>
+  <a href="https://scikit-learn.org/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn" width="42" height="42" />
+  </a>
+</p>
 
-## 🛠️ Technologies utilisées
-Python : Langage principal utilisé pour le développement du projet.
-pandas et numpy : Librairies pour la manipulation et l'analyse des données.
-scikit-learn : Utilisé pour les algorithmes de machine learning et les modèles de recommandation.
-Streamlit : Pour le déploiement de l'interface utilisateur.
-IMDb API et TMDB API : Pour l'extraction des données de films et d'informations associées.
-Matplotlib et Seaborn : Outils pour la visualisation des données et des résultats.
+---
 
-## 📊 Résultats clés
-Analyse des tendances cinématographiques locales : Une étude approfondie des préférences cinématographiques dans la région de la Creuse a permis de mieux comprendre les attentes du public.
-Modèle de recommandation : Le système de recommandation basé sur des algorithmes de machine learning propose des films similaires en fonction des préférences des utilisateurs.
-Interface utilisateur : Une interface intuitive a été développée, permettant aux utilisateurs de saisir le nom d'un film et de recevoir des recommandations pertinentes.
-KPI et performances : Des indicateurs clés de performance sont affichés pour suivre l'efficacité du système et l'évolution des préférences cinématographiques.
-Interface utilisateur : Une interface intuitive a été développée, permettant aux utilisateurs de saisir le nom d'un film et de recevoir des recommandations pertinentes.
-KPI et performances : Des indicateurs clés de performance sont affichés pour suivre l'efficacité du système et l'évolution des préférences cinématographiques.
+## 🚀 Démonstration en Direct
+Découvrez l'application en action : [Cliquez ici](https://app-movie-recommendation-fcnq7fa4kixrswrsxcihpo.streamlit.app/)
+
+---
+
+## 🖼️ Captures d'Écran
+
+### **Page d'Accueil**
+<img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/homepage.png" alt="Page d'accueil" width="80%" />
+
+### **Recommandations Personnalisées**
+<img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/recommendations.png" alt="Recommandations personnalisées" width="80%" />
+
+### **Détails du Film**
+<img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/movie_details.png" alt="Détails du film" width="80%" />
+
+---
+
+## 🗂️ Structure des Fichiers
+- `streamlit_app.py` : Code principal de l'application Streamlit.
+- `data/` : Contient les jeux de données utilisés pour les recommandations.
+- `requirements.txt` : Liste des dépendances Python nécessaires.
+
+## 📝 Installation & Utilisation
+1. **Cloner le dépôt GitHub :**
+   ```bash
+   git clone https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App.git
