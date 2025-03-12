@@ -40,7 +40,7 @@ Découvrez l'application en action : [Cliquez ici](https://app-movie-recommendat
 <img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/recommendations.png" alt="Recommandations personnalisées" width="80%" />
 
 ### **Détails du Film**
-<img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/movie_details.png" alt="Détails du film" width="80%" />
+<img src="https://github.com/MimiO91/Wild-Code-School-Projet-2-Movies-App/blob/main/screenshots/ml.png" alt="Détails du film" width="80%" />
 
 ---
 
